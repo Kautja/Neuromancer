@@ -8,7 +8,8 @@ import {motion} from 'framer-motion'
 const FirstSection = () => {
     return (
         <div>
-        <section className='md: py-36 py-10 space-y-10 bg-[#d1d1f7]'>
+        <div className='md: py-36 py-10 space-y-10 bg-[#d1d1f7]'>
+            {
               <div className='container mx-auto text-center md:w-1/2'>
                 <div className = 'text-6xl flex justify-center md:px-20 pb-10  text-[#2b1c50]'>
                 A smarter way to increase revenue
@@ -113,8 +114,9 @@ const FirstSection = () => {
                     />
                           
                   </motion.div>
-              </div>
-        </section>
+              </div
+                }
+        </div>
         </div>
     );
 }
